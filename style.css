@@ -14,29 +14,6 @@ body{
 img{
   max-width: 100%;
 }
-/* old stuff of the toggle button .. 
-label{
-  display: inline-block;
-  background-color: rgb(42,169,224);
-  padding: 10px 20px;
-  margin: 20px;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  -webkit-transition: all .3s;
-          transition: all .3s;
-}
-label:hover{
-  box-shadow: 5px 5px 10px rgba(0,0,0, .1);
-  background-color: rgb(32,159,214);
-}
-input{
-  display: none;
-}
-end of old stuff :D */
-/* go on then, styles go here.. knock yourself out! */
 .profile-card{
   position: absolute;
   left:0;top:0;right:0;bottom:0;
