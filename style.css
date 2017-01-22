@@ -171,3 +171,21 @@ img{
       -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
+#linkedin {
+  background-color: #67a0d0;
+}
+#stackoverflow {
+  background-color: #ecae3f;
+}
+#github {
+  background-color: #afb1ad;
+}
+#codepen {
+  background-color: #6b6a6a;
+}
+#blog {
+  background-color: #9caf2c;
+}
+#email {
+  background-color: #23a09f;
+}
