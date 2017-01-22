@@ -89,6 +89,7 @@ img{
 .profile-card .profile-bio{
   margin: 186.666px 0 0 90px;
   padding: 10px 20px;
+  line-height:1.5em;
   /* text-align: right; */
 }
 .profile-card .profile-social-links{
@@ -169,7 +170,4 @@ img{
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
-}
-P {
-  line-height:1.5em;
 }
