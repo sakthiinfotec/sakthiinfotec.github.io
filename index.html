@@ -13,8 +13,14 @@
   <script>
     function updateExp() {
       let elExp = document.querySelector("#experience");
-      let exp = new Date(new Date().getTime() - new Date(2007, 5, 1).getTime());
-      elExp.innerHTML = exp.getUTCFullYear() - 1970 + "." + exp.getUTCMonth() + 1;
+      let exp = new Date(new Date().getTime() - new Date(2007, 5, 7).getTime());
+      let years = exp.getUTCFullYear() - 1970;
+      let months = exp.getUTCMonth() + 1;
+      if(months == 12) {
+        years ++;
+        months = 0;
+      }
+      elExp.innerHTML = years + "." + months;
     }
   </script>
 </head>
