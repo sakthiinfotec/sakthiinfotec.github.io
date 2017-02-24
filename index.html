@@ -10,9 +10,16 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400">
+  <script>
+    function updateExp() {
+      let elExp = document.querySelector("#experience");
+      let exp = new Date(new Date().getTime() - new Date(2007, 5, 1).getTime());
+      elExp.innerHTML = exp.getUTCFullYear() - 1970 + "." + exp.getUTCMonth() + 1;
+    }
+  </script>
 </head>
 
-<body>
+<body onload="updateExp">
   <div class="wrapper">
   <aside class="profile-card">
 
@@ -23,15 +30,14 @@
         <img src="https://avatars2.githubusercontent.com/u/685396?v=3&s=460">
       </a>
 
-      <!-- the username -->
       <h1>Sakthivel Murugasamy</h1>
 
       <!-- and role or location -->
-      <h2>Full Stack Developer / 9.10+ Years / Phoenix, AZ</h2>
+      <h2>Full Stack Developer / <span id="experience"></span>+ Years / Phoenix, AZ</h2>
 
     </header>
 
-    <!-- bit of a bio; who are you? -->
+    <!-- prefesional experience  -->
     <div class="profile-bio">
       
       <p>Java, Python, Node.js, Javascript(ES6), Spring(Boot, JMS, JPA), Express</p>
@@ -41,7 +47,7 @@
       <p>HTML, CSS, jQuery, JSON, XML, Bootstrap</p>
       <p>IoT, MQTT, RabbitMQ(AMQP), TIBCO EMS, Drools</p>
       <p>REST API, Postman, TDD, BDD, JUnit, Mockito, Mocha, Git, SVN</p>
-      <p>Linux, Shellscript, Docker, Microservice, Tomcat, JBoss</p>
+      <p>Linux, Shellscript, Docker, Microservice, Nginx, Tomcat, JBoss</p>
 
     </div>
 
