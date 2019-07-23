@@ -9,3 +9,11 @@
 * [Kobiton](https://kobiton.com)
 * [Experitest](https://experitest.com/)
 * [Test IO](https://test.io)
+
+### Software Testing and QA Consulting Company
+* [uTest](https://www.linkedin.com/company/utest)
+* [Bug Finders](https://www.linkedin.com/company/bugfinders-ltd)
+* [Testbirds](https://www.linkedin.com/company/testbirds)
+* [Uber Testers](https://www.linkedin.com/company/ubertesters)
+* [Global App Testing](https://www.linkedin.com/company/global-app-testing)
+* [Testbytes](https://www.testbytes.net/)
