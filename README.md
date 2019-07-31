@@ -18,3 +18,7 @@
 * [Global App Testing](https://www.linkedin.com/company/global-app-testing)
 * [Testbytes](https://www.testbytes.net/)
 * [Tester Work](https://testerwork.com/)
+
+### Developer Tools
+* [Tools used by Wesbox](https://wesbos.com/uses/)
+* [Hyper Terminal](https://hyper.is/)
