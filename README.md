@@ -22,3 +22,6 @@
 ### Developer Tools
 * [Tools used by Wesbox](https://wesbos.com/uses/)
 * [Hyper Terminal](https://hyper.is/)
+
+## JavaScript Tutorial
+* [JavaScript - ES6](https://es6.io)
